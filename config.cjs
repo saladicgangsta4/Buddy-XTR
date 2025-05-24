@@ -101,7 +101,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Your Session Id",
+  SESSION_ID: process.env.SESSION_ID || "Buddy;;;Mcgz1A4C#32tZOF68IWzOKKGqWH4Uz7kbcCf1RiIYq4uJ0C9tvPc",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
@@ -116,8 +116,8 @@ const config = {
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
   MODE: process.env.MODE || "public",
-  OWNER_NAME: process.env.OWNER_NAME || "CARL-TECH",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "2547000000",
+  OWNER_NAME: process.env.OWNER_NAME || "saladic gangsta",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "263782093384",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyCUPaxfIdZawsKZKqCqJcC-GWiQPCXKTDc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 
