@@ -101,7 +101,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "Buddy;;;Mcgz1A4C#32tZOF68IWzOKKGqWH4Uz7kbcCf1RiIYq4uJ0C9tvPc",
+  SESSION_ID: process.env.SESSION_ID || "Buddy;;;gBREzLjJ#UOBadbyWk7kwZFva1W1b53pyW_keefQjsjosIgGyxfE",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY !== undefined ? process.env.AUTO_STATUS_REPLY === 'true' : true,
